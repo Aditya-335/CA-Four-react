@@ -1,0 +1,198 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  body{
+    background:#A1EEBD;
+    
+  }
+  
+  .pages{
+    color: #000;
+    position:absolute;
+    left:300px;
+  }
+  
+  .play{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Resultbox{
+    background: #fff;
+    width: 800px;
+    height: 300px;
+    margin-left:250px;
+
+  }
+  
+  .res{
+    color: green;
+  }
+  
+  .text{
+    color: #000;
+    padding-top: 20px;
+  }
+  
+  
+  
+  .score{
+    color:blue;
+    font-size: 25px;
+  }
+  
+  .TEXTS{
+    color: #000;
+    display: flex;
+    justify-content:space-between;
+    padding: 20px;
+  }
+  
+  .buttons{
+    margin-top:20px;
+    display: flex;
+    justify-content:space-evenly;
+  }
+  
+ .restart{
+    height: 40px;
+    width:120px;
+    font-size:20px;
+    border-radius: 4px;
+    border: none;
+    background: #F6D6D6;
+ }
+
+ .toggle{
+    position: absolute;
+    right: 20px;
+    
+ }
+  
+
+  
+  .main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .one,.two,.three,.four{
+    width:400px;
+    height:40px;
+    background:#7BD3EA;
+    border-radius:20px;
+    margin:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .Quiz-page{
+    height: 100vh;
+  }
+  
+  .firstTwo{
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  .lastTwo{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .Q{
+    color: #000;
+  }
+  
+  .Qs{
+    color: #000;
+  }
+  
+  .Btn{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: flex-end;
+    margin-top:40px;
+  }
+  
+  .blankspace{
+    width:950px;
+    height:450px;
+    background:#fff;
+    padding:20px;
+    margin-left: 150px;
+    
+  }
+
+  .unhighlight{
+    height: 40px;
+    width:120px;
+    font-size:20px;
+    border-radius: 4px;
+    border: none;
+    background: #F6D6D6;
+  }
+
+  .highlight{
+    height: 40px;
+    width:120px;
+    font-size:20px;
+    border-radius: 4px;
+    border: none;
+    background: #F6D6D6;
+  }
+  
+  .first{
+    flex-direction: column;
+  }
+  
+  .play{
+    width:200px;
+    height:35px;
+    background:green;
+    border-radius: 30px;
+  }
+  
+  .logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+  }
+  .logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+  .logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+  }
+  
+  @keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+      animation: logo-spin infinite 20s linear;
+    }
+  }
+  
+  .card {
+    padding: 2em;
+  }
+  
+  .read-the-docs {
+    color: #888;
+  }
